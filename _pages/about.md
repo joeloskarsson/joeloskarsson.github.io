@@ -26,7 +26,7 @@ In 2018-2019 I spent a year as an exchange student at ETH Zurich, Switzerland.
 I grew up in Lindesberg, Sweden and currently live in Linköping.
 <!-- I am an avid Linux user and a believer in free and open source software. Openness of ideas, culture and research is very important to me. -->
 
-### Current interests
+### current interests
 These are some things that I am interested in and/or work on at the moment. I try to keep this somewhat up to date.
 
 * Machine learning on graphs
