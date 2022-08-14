@@ -217,7 +217,7 @@ display_tags: # this tags will be dispalyed on the front page of your blog
 scholar:
 
   last_name: Oskarsson
-  first_name: [Joel]
+  first_name: [Joel, J.]
 
   style: apa
   locale: en
