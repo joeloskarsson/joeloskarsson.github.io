@@ -2,24 +2,42 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD-student at the Division of Statistics and Machine Learning, Department of Computer and Information Science, Linköping University, Sweden.
+My main supervisor is [Fredrik Lindsten](https://lindsten.netlify.app/) and co-supervisors [Per Sidén](https://liu.se/en/employee/persi28) and [Jose M. Peña](https://www.ida.liu.se/~jospe50/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my research I aim to develop machine learning methods for data-analysis on structured data.
+I develop methods for data with spatial-, temporal- and graph-structure, including combinations of these.
+In particular I am interested in how more traditional probabilistic methods in these domains can be combined with deep learning in order to derive new methods with useful properties.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I got my masters's degree in computer science and engineering from Linköping University in 2020.
+In 2018-2019 I spent a year as an exchange student at ETH Zurich, Switzerland.
+I grew up in Lindesberg, Sweden and currently live in Linköping.
+<!-- I am an avid Linux user and a believer in free and open source software. Openness of ideas, culture and research is very important to me. -->
+
+### Current interests
+These are some things that I am interested in and/or work on at the moment. I try to keep this somewhat up to date.
+
+* Machine learning on graphs
+  * Bayesian modeling on graphs, Graph GPs, GMRFs
+  * (Spatio-) Temporal graph neural networks
+* Spatio-temporal data analysis
+  * Anything at the intersection of probabilistic methods and deep learning
+  * Modeling continous time signals using deep learning, Neural ODEs
+* Deep generative models
+  * MMD-based models
+
+CV: [English](https://joeloskarsson.github.io/CV/CV_english.pdf),
+[Swedish](https://joeloskarsson.github.io/CV/CV_swedish.pdf)
+
