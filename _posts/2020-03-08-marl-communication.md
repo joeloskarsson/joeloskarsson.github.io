@@ -3,7 +3,7 @@ layout: post
 title:  "Learning Communication in Multi-Agent Reinforcement Learning"
 date:   2020-03-08 11:13:00 +0200
 author: Joel Oskarsson
-categories: ai, machine learning, reinforcement learning, communication
+categories: rl communication presentation report ml
 ---
 
 In the context of a course on multi agent systems this fall I have been looking into multi agent reinforcement learning.

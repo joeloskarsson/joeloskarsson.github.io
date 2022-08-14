@@ -3,7 +3,7 @@ layout: post
 title:  "Master's Thesis: Probabilistic Regression using Conditional Generative Adversarial Networks"
 date:   2020-08-29 22:48:00 +0200
 author: Joel Oskarsson
-categories: ai, machine learning, GAN
+categories: thesis gan ml generative
 ---
 
 I have finished my master's thesis: [Probabilistic Regression using Conditional Generative Adversarial Networks](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-166637).

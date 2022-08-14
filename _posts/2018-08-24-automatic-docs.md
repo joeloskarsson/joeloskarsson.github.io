@@ -3,7 +3,7 @@ layout: post
 title:  "Automatic online documentation for GitHub projects using Doxygen, Travis CI and GitHub pages"
 author: Joel Oskarsson
 date:   2018-08-24 16:47:00 +0200
-categories: ci documentation continuous-integration github makefile
+categories: ci documentation github
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 For a couple of weeks I've been putting my evenings into developing a neural network framework in C++.

@@ -3,7 +3,7 @@ layout: post
 title:  "Gridworld Sandbox for Reinforcement Learning"
 date:   2019-02-24 11:05:00 +0200
 author: Joel Oskarsson
-categories: ai, machine learning, reinforcement learning
+categories: rl ml
 ---
 
 I have always found that one of the best ways to truly understand a concept is to implement it in code. So when I got a couple days off in between my exams and the spring semester I decided to revisit one of the most interesting topics I studied this fall, but never really had the time to dive deep into amidst term exams and project deadlines. That is the topic of reinforcement learning, or more specifically the [model-free](https://en.wikipedia.org/wiki/Model-free_(reinforcement_learning)) approach of [Q-learning](https://en.wikipedia.org/wiki/Q-learning).

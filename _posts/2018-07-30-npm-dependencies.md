@@ -3,7 +3,7 @@ layout: post
 title:  "An analysis of dependencies to software packages in open source JavaScript projects"
 author: Joel Oskarsson
 date:   2018-07-30 21:57:00 +0200
-categories: paper javascript npm
+categories: thesis javascript npm
 ---
 I recently completed my bachelor's project and thesis.
 As part of the thesis work I performed an analysis on dependencies in the npm ecosystem.

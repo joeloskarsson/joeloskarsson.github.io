@@ -3,7 +3,7 @@ layout: post
 author: Joel Oskarsson
 title:  "Machine Learning for Transport Mode Classification"
 date:   2019-02-03 18:28:00 +0200
-categories: ai, machine learning
+categories: transport app ml
 ---
 
 This fall I encountered the quite interesting problem of inferring what mode of transportation a person is using based on sensor data.
