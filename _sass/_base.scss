@@ -296,11 +296,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
 
@@ -489,8 +489,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
       .preview {
         width: 100%;
-        min-width: 80px;
+        min-width: 130px;
         max-width: 200px;
+        margin-right: 10px
       }
       .abbr {
         height: 2rem;
