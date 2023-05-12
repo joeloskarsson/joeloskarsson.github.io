@@ -16,8 +16,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD-student at the Division of Statistics and Machine Learning, Department of Computer and Information Science, Linköping University, Sweden.
 My main supervisor is [Fredrik Lindsten](https://lindsten.netlify.app/) and co-supervisors [Per Sidén](https://liu.se/en/employee/persi28) and [Jose M. Peña](https://www.ida.liu.se/~jospe50/).
+I am an affiliated PhD-student within the [WASP](https://wasp-sweden.org/) program.
 
-In my research I aim to develop machine learning methods for data-analysis on structured data.
+In my research I aim to develop machine learning methods for structured data.
 I develop methods for data with spatial-, temporal- and graph-structure, including combinations of these.
 In particular I am interested in how more traditional probabilistic methods in these domains can be combined with deep learning in order to derive new methods with useful properties.
 
@@ -33,10 +34,8 @@ These are some things that I am interested in and/or work on at the moment. I tr
   * Bayesian modeling on graphs, Graph GPs, GMRFs
   * (Spatio-) Temporal graph neural networks
 * Spatio-temporal data analysis
-  * Anything at the intersection of probabilistic methods and deep learning
   * Modeling continous time signals using deep learning, Neural ODEs
-* Deep generative models
-  * MMD-based models
+  * Machine learning for modeling weather and climate
 
 CV: [English](https://joeloskarsson.github.io/CV/CV_english.pdf),
 [Swedish](https://joeloskarsson.github.io/CV/CV_swedish.pdf)

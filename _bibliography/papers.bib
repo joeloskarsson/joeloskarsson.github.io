@@ -1,5 +1,18 @@
 ---
 ---
+
+@article{westny2023evaluation,
+  title={Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction},
+  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
+  journal={arXiv preprint arXiv:2304.05116},
+  year={2023},
+  abstract = {Given their flexibility and encouraging performance, deep-learning models are becoming standard for motion prediction in autonomous driving. However, with great flexibility comes a lack of interpretability and possible violations of physical constraints. Accompanying these data-driven methods with differentially-constrained motion models to provide physically feasible trajectories is a promising future direction. The foundation for this work is a previously introduced graph-neural-network-based model, MTP-GO. The neural network learns to compute the inputs to an underlying motion model to provide physically feasible trajectories. This research investigates the performance of various motion models in combination with numerical solvers for the prediction task. The study shows that simpler models, such as low-order integrator models, are preferred over more complex, e.g., kinematic models, to achieve accurate predictions. Further, the numerical solver can have a substantial impact on performance, advising against commonly used first-order methods like Euler forward. Instead, a second-order method like Heun's can greatly improve predictions.},
+  bibtex_show={true},
+  pdf = {https://arxiv.org/pdf/2304.05116},
+  code = {https://github.com/westny/mtp-go},
+  preview = {thumb_evaluation_diff.png},
+}
+
 @InProceedings{tgnn4i,
   title = 	 {Temporal Graph Neural Networks for Irregular Data},
   author =       {Oskarsson, Joel and Sid\'en, Per and Lindsten, Fredrik},
