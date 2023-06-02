@@ -1,5 +1,17 @@
 ---
 ---
+@article{westny2023graph,
+  title="{MTP-GO: G}raph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural {ODE}s",
+  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
+  journal={arXiv preprint arXiv:2302.00735},
+  year={2023},
+  abstract = {Enabling resilient autonomous motion planning requires robust predictions of surrounding road users' future behavior. In response to this need and the associated challenges, we introduce our model, titled MTP-GO. The model encodes the scene using temporal graph neural networks to produce the inputs to an underlying motion model. The motion model is implemented using neural ordinary differential equations where the state-transition functions are learned with the rest of the model. Multi-modal probabilistic predictions are provided by combining the concept of mixture density networks and Kalman filtering. The results illustrate the predictive capabilities of the proposed model across various data sets, outperforming several state-of-the-art methods on a number of metrics.},
+  bibtex_show={true},
+  pdf = {https://arxiv.org/pdf/2302.00735},
+  code = {https://github.com/westny/mtp-go},
+  preview = {thumb_round.png},
+  note = {Accepted to IEEE Transactions on Intelligent Vehicle},
+}
 
 @article{westny2023evaluation,
   title={Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction},
@@ -11,6 +23,7 @@
   pdf = {https://arxiv.org/pdf/2304.05116},
   code = {https://github.com/westny/mtp-go},
   preview = {thumb_evaluation_diff.png},
+  note = {Accepted to IEEE Intelligent Vehicles Symposium (IV) 2023},
 }
 
 @InProceedings{tgnn4i,
@@ -32,18 +45,6 @@
   slides = {TGNN4I_AISTATS_presentation.pdf},
   video = {https://www.youtube.com/watch?v=r0mpZjUnpHA},
   selected={true},
-}
-
-@article{westny2023graph,
-  title="{MTP-GO: G}raph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural {ODE}s",
-  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
-  journal={arXiv preprint arXiv:2302.00735},
-  year={2023},
-  abstract = {Enabling resilient autonomous motion planning requires robust predictions of surrounding road users' future behavior. In response to this need and the associated challenges, we introduce our model, titled MTP-GO. The model encodes the scene using temporal graph neural networks to produce the inputs to an underlying motion model. The motion model is implemented using neural ordinary differential equations where the state-transition functions are learned with the rest of the model. Multi-modal probabilistic predictions are provided by combining the concept of mixture density networks and Kalman filtering. The results illustrate the predictive capabilities of the proposed model across various data sets, outperforming several state-of-the-art methods on a number of metrics.},
-  bibtex_show={true},
-  pdf = {https://arxiv.org/pdf/2302.00735},
-  code = {https://github.com/westny/mtp-go},
-  preview = {thumb_round.png},
 }
 
 @InProceedings{pmlr-v162-oskarsson22a,
