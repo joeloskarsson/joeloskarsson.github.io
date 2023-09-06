@@ -1,29 +1,27 @@
 ---
 ---
 @article{westny2023graph,
-  title="{MTP-GO: G}raph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural {ODE}s",
-  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
-  journal={arXiv preprint arXiv:2302.00735},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  title={MTP-GO: Graph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural ODEs},
   year={2023},
+  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
   abstract = {Enabling resilient autonomous motion planning requires robust predictions of surrounding road users' future behavior. In response to this need and the associated challenges, we introduce our model, titled MTP-GO. The model encodes the scene using temporal graph neural networks to produce the inputs to an underlying motion model. The motion model is implemented using neural ordinary differential equations where the state-transition functions are learned with the rest of the model. Multi-modal probabilistic predictions are provided by combining the concept of mixture density networks and Kalman filtering. The results illustrate the predictive capabilities of the proposed model across various data sets, outperforming several state-of-the-art methods on a number of metrics.},
   bibtex_show={true},
-  pdf = {https://arxiv.org/pdf/2302.00735},
+  pdf = {https://ieeexplore.ieee.org/abstract/document/10143287},
   code = {https://github.com/westny/mtp-go},
-  preview = {thumb_round.png},
-  note = {Accepted to IEEE Transactions on Intelligent Vehicle},
+  preview = {thumb_round.png}
 }
 
-@article{westny2023evaluation,
+@INPROCEEDINGS{westny2023evaluation,
   title={Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction},
   author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
-  journal={arXiv preprint arXiv:2304.05116},
+  booktitle={2023 IEEE Intelligent Vehicles Symposium (IV)},
   year={2023},
   abstract = {Given their flexibility and encouraging performance, deep-learning models are becoming standard for motion prediction in autonomous driving. However, with great flexibility comes a lack of interpretability and possible violations of physical constraints. Accompanying these data-driven methods with differentially-constrained motion models to provide physically feasible trajectories is a promising future direction. The foundation for this work is a previously introduced graph-neural-network-based model, MTP-GO. The neural network learns to compute the inputs to an underlying motion model to provide physically feasible trajectories. This research investigates the performance of various motion models in combination with numerical solvers for the prediction task. The study shows that simpler models, such as low-order integrator models, are preferred over more complex, e.g., kinematic models, to achieve accurate predictions. Further, the numerical solver can have a substantial impact on performance, advising against commonly used first-order methods like Euler forward. Instead, a second-order method like Heun's can greatly improve predictions.},
   bibtex_show={true},
-  pdf = {https://arxiv.org/pdf/2304.05116},
+  pdf = {https://ieeexplore.ieee.org/document/10186615},
   code = {https://github.com/westny/mtp-go},
   preview = {thumb_evaluation_diff.png},
-  note = {Accepted to IEEE Intelligent Vehicles Symposium (IV) 2023},
 }
 
 @InProceedings{tgnn4i,
