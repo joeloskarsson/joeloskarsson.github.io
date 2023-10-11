@@ -32,10 +32,10 @@ My CV is available [here](https://raw.githubusercontent.com/joeloskarsson/CV/aca
 ### Current interests
 These are some things that I am interested in and/or work on at the moment. I try to keep this somewhat up to date.
 
+* Spatio-temporal data analysis
+  * Machine learning for modeling weather and climate
+  * Modeling continuous time signals using deep learning, Neural ODEs
 * Machine learning on graphs
   * Bayesian modeling on graphs, Graph GPs, GMRFs
   * (Spatio-) Temporal graph neural networks
-* Spatio-temporal data analysis
-  * Modeling continous time signals using deep learning, Neural ODEs
-  * Machine learning for modeling weather and climate
 
