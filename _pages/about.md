@@ -21,11 +21,12 @@ I am an affiliated PhD-student within the [WASP](https://wasp-sweden.org/) progr
 In my research I aim to develop machine learning methods for structured data.
 I develop methods for data with spatial-, temporal- and graph-structure, including combinations of these.
 In particular I am interested in how more traditional probabilistic methods in these domains can be combined with deep learning in order to derive new methods with useful properties.
+I also enjoy applying these methods to weather and climate data.
 
 I got my masters's degree in computer science and engineering from Linköping University in 2020.
 In 2018-2019 I spent a year as an exchange student at ETH Zurich, Switzerland.
-I grew up in Lindesberg, Sweden and currently live in Linköping.
-<!-- I am an avid Linux user and a believer in free and open source software. Openness of ideas, culture and research is very important to me. -->
+ <!--I grew up in Lindesberg, Sweden and currently live in Linköping.
+I am an avid Linux user and a believer in free and open source software. Openness of ideas, culture and research is very important to me. -->
 
 My CV is available [here](https://raw.githubusercontent.com/joeloskarsson/CV/academic/docs/CV.pdf).
 
