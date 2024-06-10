@@ -4,7 +4,7 @@
 
 "Sidén":
   - firstname: ["Per", "P."]
-    url: https://liu.se/en/employee/persi28
+    url: https://scholar.google.se/citations?hl=en&user=0UomzRIAAAAJ
 
 "Westny":
   - firstname: ["Theodor", "T."]
@@ -14,3 +14,6 @@
   - firstname: ["Tomas", "T."]
     url: https://www.smhi.se/en/research/research-departments/meteorology/tomas-landelius-1.4817
 
+"Deisenroth":
+  - firstname: ["Marc", "Marc Peter", "M.P.", "M."]
+    url: https://www.deisenroth.cc/
