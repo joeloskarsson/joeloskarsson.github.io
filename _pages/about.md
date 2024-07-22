@@ -19,8 +19,8 @@ My main supervisor is [Fredrik Lindsten](https://lindsten.netlify.app/) and co-s
 I am an affiliated PhD-student within the [WASP](https://wasp-sweden.org/) program.
 
 In my research I aim to develop probabilistic machine learning methods for structured data.
-<!--I develop methods for data with spatial-, temporal- and graph-structure, including combinations of these.-->
-In particular I am interested in how more traditional probabilistic methods in these domains can be combined with deep learning in order to derive new methods with useful properties.
+I develop methods for data with spatial-, temporal- and graph-structure, including combinations of these.
+ <!--In particular I am interested in how more traditional probabilistic methods in these domains can be combined with deep learning in order to derive new methods with useful properties.-->
 I also enjoy applying these methods to weather and climate data.
 
 I got my masters's degree in computer science and engineering from Linköping University in 2020.
