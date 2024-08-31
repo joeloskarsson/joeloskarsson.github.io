@@ -1,5 +1,17 @@
 ---
 ---
+@article{gopakumar2024uncertainty,
+  title={Uncertainty Quantification of Pre-Trained and Fine-Tuned Surrogate Models using Conformal Prediction},
+  author={Gopakumar, Vignesh and Gray, Ander and Oskarsson, Joel and Zanisi, Lorenzo and Pamela, Stanislas and Giles, Daniel and Kusner, Matt and Deisenroth, Marc Peter},
+  journal={arXiv preprint},
+  year={2024},
+  abstract={Data-driven surrogate models have shown immense potential as quick, inexpensive approximations to complex numerical and experimental modelling tasks. However, most surrogate models characterising physical systems do not quantify their uncertainty, rendering their predictions unreliable, and needing further validation. Though Bayesian approximations offer some solace in estimating the error associated with these models, they cannot provide they cannot provide guarantees, and the quality of their inferences depends on the availability of prior information and good approximations to posteriors for complex problems. This is particularly pertinent to multi-variable or spatio-temporal problems. Our work constructs and formalises a conformal prediction framework that satisfies marginal coverage for spatio-temporal predictions in a model-agnostic manner, requiring near-zero computational costs. The paper provides an extensive empirical study of the application of the framework to ascertain valid error bars that provide guaranteed coverage across the surrogate model's domain of operation. The application scope of our work extends across a large range of spatio-temporal models, ranging from solving partial differential equations to weather forecasting. Through the applications, the paper looks at providing statistically valid error bars for deterministic models, as well as crafting guarantees to the error bars of probabilistic models. The paper concludes with a viable conformal prediction formalisation that provides guaranteed coverage of the surrogate model, regardless of model architecture, and its training regime and is unbothered by the curse of dimensionality.},
+  bibtex_show={true},
+  pdf = {https://arxiv.org/abs/2408.09881},
+  code = {https://github.com/gitvicky/Spatio-Temporal-UQ},
+  preview = {thumb_cp_surrogate_models.png}
+}
+
 @article{oskarsson2024probabilistic,
   title={Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks},
   author={Joel Oskarsson and Tomas Landelius and Marc Peter Deisenroth and Fredrik Lindsten},
