@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a PhD-student at the Division of Statistics and Machine Learning, Department of Computer and Information Science, Linköping University, Sweden.
-My main supervisor is [Fredrik Lindsten](https://lindsten.netlify.app/) and co-supervisors [Per Sidén](https://scholar.google.se/citations?user=0UomzRIAAAAJ) and [Jose M. Peña](https://www.ida.liu.se/~jospe50/).
+My main supervisor is [Fredrik Lindsten](https://lindsten.netlify.app/) and co-supervisors [Per Sidén](https://scholar.google.se/citations?user=0UomzRIAAAAJ), [Tomas Landelius](https://www.smhi.se/en/research/research-departments/meteorology/tomas-landelius-1.4817) and [Jose M. Peña](https://www.ida.liu.se/~jospe50/).
 I am an affiliated PhD-student within the [WASP](https://wasp-sweden.org/) program.
 
 In my research I aim to develop probabilistic machine learning methods for structured data.
