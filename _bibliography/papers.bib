@@ -1,5 +1,20 @@
 ---
 ---
+@inproceedings{oskarsson2024probabilistic,
+  title={Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks},
+  author={Joel Oskarsson and Tomas Landelius and Marc Peter Deisenroth and Fredrik Lindsten},
+  year={2024},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {37},
+  abstract={In recent years, machine learning has established itself as a powerful tool for high-resolution weather forecasting. While most current machine learning models focus on deterministic forecasts, accurately capturing the uncertainty in the chaotic weather system calls for probabilistic modeling. We propose a probabilistic weather forecasting model called Graph-EFM, combining a flexible latent-variable formulation with the successful graph-based forecasting framework. The use of a hierarchical graph construction allows for efficient sampling of spatially coherent forecasts. Requiring only a single forward pass per time step, Graph-EFM allows for fast generation of arbitrarily large ensembles. We experiment with the model on both global and limited area forecasting. Ensemble forecasts from Graph-EFM achieve equivalent or lower errors than comparable deterministic models, with the added benefit of accurately capturing forecast uncertainty.},
+  bibtex_show={true},
+  pdf = {https://arxiv.org/abs/2406.04759},
+  code = {https://github.com/mllam/neural-lam/tree/prob_model_global},
+  preview = {graph_efm.png},
+  note = {Spotlight},
+  selected={true},
+}
+
 @article{andrae2024continuousensembleweatherforecasting,
     title={Continuous Ensemble Weather Forecasting with Diffusion models},
     author={Martin Andrae and Tomas Landelius and Joel Oskarsson and Fredrik Lindsten},
@@ -21,18 +36,6 @@
   pdf = {https://arxiv.org/abs/2408.09881},
   code = {https://github.com/gitvicky/Spatio-Temporal-UQ},
   preview = {thumb_cp_surrogate_models.png}
-}
-
-@article{oskarsson2024probabilistic,
-  title={Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks},
-  author={Joel Oskarsson and Tomas Landelius and Marc Peter Deisenroth and Fredrik Lindsten},
-  year={2024},
-  journal={arXiv preprint},
-  abstract={In recent years, machine learning has established itself as a powerful tool for high-resolution weather forecasting. While most current machine learning models focus on deterministic forecasts, accurately capturing the uncertainty in the chaotic weather system calls for probabilistic modeling. We propose a probabilistic weather forecasting model called Graph-EFM, combining a flexible latent-variable formulation with the successful graph-based forecasting framework. The use of a hierarchical graph construction allows for efficient sampling of spatially coherent forecasts. Requiring only a single forward pass per time step, Graph-EFM allows for fast generation of arbitrarily large ensembles. We experiment with the model on both global and limited area forecasting. Ensemble forecasts from Graph-EFM achieve equivalent or lower errors than comparable deterministic models, with the added benefit of accurately capturing forecast uncertainty.},
-  bibtex_show={true},
-  pdf = {https://arxiv.org/abs/2406.04759},
-  code = {https://github.com/mllam/neural-lam/tree/prob_model_global},
-  preview = {graph_efm.png}
 }
 
 @article{westny2023graph,
