@@ -1,5 +1,16 @@
 ---
 ---
+@inproceedings{andrae2024continuousensembleweatherforecasting,
+    title={Continuous Ensemble Weather Forecasting with Diffusion models},
+    author={Martin Andrae and Tomas Landelius and Joel Oskarsson and Fredrik Lindsten},
+    booktitle={International Conference on Learning Representations},
+    year={2025},
+    pdf={https://arxiv.org/abs/2410.05431},
+    abstract={Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.},
+    bibtex_show={true},
+    preview = {cont_ens.png}
+}
+
 @inproceedings{oskarsson2024probabilistic,
   title={Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks},
   author={Joel Oskarsson and Tomas Landelius and Marc Peter Deisenroth and Fredrik Lindsten},
@@ -13,17 +24,6 @@
   preview = {graph_efm.png},
   note = {Spotlight},
   selected={true},
-}
-
-@article{andrae2024continuousensembleweatherforecasting,
-    title={Continuous Ensemble Weather Forecasting with Diffusion models},
-    author={Martin Andrae and Tomas Landelius and Joel Oskarsson and Fredrik Lindsten},
-    journal={arXiv preprint},
-    year={2024},
-    pdf={https://arxiv.org/abs/2410.05431},
-    abstract={Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.},
-    bibtex_show={true},
-    preview = {cont_ens.png}
 }
 
 @article{gopakumar2024uncertainty,
