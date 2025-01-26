@@ -250,7 +250,7 @@ First go to your GitHub settings page. Under developer settings generate a new p
 If the repository you want to deploy to is public you only need the *public_repo* scope. If it is private you need *repo*.
 
 
-{% include figure.html path="assets/img/access_token.png" class="img-fluid" %}
+{% include figure.liquid path="assets/img/access_token.png" class="img-fluid" %}
 <div class="caption">
     Generating a new personal access token
 </div>
@@ -258,7 +258,7 @@ If the repository you want to deploy to is public you only need the *public_repo
 Copy this token and go to the Travis CI repository settings for you project repository.
 Create a new environment variable named `GITHUB_TOKEN` and set the value to your personal access token. Make sure the *Display value in build log* slider is set to off so your token stays hidden.
 
-{% include figure.html path="assets/img/travis_var.png" class="img-fluid" %}
+{% include figure.liquid path="assets/img/travis_var.png" class="img-fluid" %}
 <div class="caption">
     GITHUB_TOKEN environment variable in Travis repository settings
 </div>
@@ -305,7 +305,7 @@ In the documentation repository, go to the settings tab.
 Scroll down to GitHub pages and select source *master branch /docs folder*.
 This is the reason why we chose the name `docs` for the html documentation directory in the Doxygen config.
 
-{% include figure.html path="assets/img/gh_pages.png" class="img-fluid" %}
+{% include figure.liquid path="assets/img/gh_pages.png" class="img-fluid" %}
 <div class="caption">
 GitHub pages set up to serve to /docs directory from the master branch
 </div>
