@@ -206,6 +206,9 @@ ninja.data = [{
           section: "News",},{id: "news-continuous-ensemble-weather-forecasting-with-diffusion-models-has-been-accepted-to-iclr-2025-and-diffusion-lam-probabilistic-limited-area-weather-forecasting-with-diffusion-accepted-to-the-climate-change-ai-workshop",
           title: '“Continuous Ensemble Weather Forecasting with Diffusion models” has been accepted to ICLR 2025...',
           description: "",
+          section: "News",},{id: "news-new-preprint-building-machine-learning-limited-area-models-kilometer-scale-weather-forecasting-in-realistic-settings",
+          title: 'New preprint: “Building Machine Learning Limited Area Models: Kilometer-Scale Weather Forecasting in Realistic...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
