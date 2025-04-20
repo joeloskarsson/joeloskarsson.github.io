@@ -1,23 +1,31 @@
-"Lindsten":
+"lindsten":
   - firstname: ["Fredrik", "F."]
     url: https://lindsten.netlify.app/
 
-"Sidén":
+"siden":
   - firstname: ["Per", "P."]
     url: https://scholar.google.se/citations?hl=en&user=0UomzRIAAAAJ
 
-"Westny":
+"westny":
   - firstname: ["Theodor", "T."]
     url: https://liu.se/en/employee/thewe60
 
-"Landelius":
+"landelius":
   - firstname: ["Tomas", "T."]
     url: https://www.smhi.se/en/research/research-departments/meteorology/tomas-landelius-1.4817
 
-"Deisenroth":
+"deisenroth":
   - firstname: ["Marc", "Marc Peter", "M.P.", "M."]
     url: https://www.deisenroth.cc/
 
-"Gopakumar":
+"gopakumar":
   - firstname: ["Vignesh", "V."]
     url: https://www.vignesh-gopakumar.com/
+
+"andrae":
+  - firstname: ["Martin", "M."]
+    url: https://martinandrae.github.io/
+
+"larsson":
+  - firstname: ["Erik", "E."]
+    url: https://liu.se/en/employee/erila85

@@ -2,14 +2,15 @@
 ---
 @article{adamov2025building,
   title={Building Machine Learning Limited Area Models: Kilometer-Scale Weather Forecasting in Realistic Settings},
-  author={Adamov, Simon and Oskarsson, Joel and Denby, Leif and Landelius, Tomas and Hintz, Kasper and Christiansen, Simon and Schicker, Irene and Osuna, Carlos and Lindsten, Fredrik and Fuhrer, Oliver and others},
+  author={Adamov*, Simon and Oskarsson*, Joel and Denby, Leif and Landelius, Tomas and Hintz, Kasper and Christiansen, Simon and Schicker, Irene and Osuna, Carlos and Lindsten, Fredrik and Fuhrer, Oliver and Schemm,Sebastian},
   journal={arXiv preprint },
   year={2025},
   pdf={https://arxiv.org/abs/2504.09340},
   abstract={Machine learning is revolutionizing global weather forecasting, with models that efficiently produce highly accurate forecasts. Apart from global forecasting there is also a large value in high-resolution regional weather forecasts, focusing on accurate simulations of the atmosphere for a limited area. Initial attempts have been made to use machine learning for such limited area scenarios, but these experiments do not consider realistic forecasting settings and do not investigate the many design choices involved. We present a framework for building kilometer-scale machine learning limited area models with boundary conditions imposed through a flexible boundary forcing method. This enables boundary conditions defined either from reanalysis or operational forecast data. Our approach employs specialized graph constructions with rectangular and triangular meshes, along with multi-step rollout training strategies to improve temporal consistency. We perform systematic evaluation of different design choices, including the boundary width, graph construction and boundary forcing integration. Models are evaluated across both a Danish and a Swiss domain, two regions that exhibit different orographical characteristics. Verification is performed against both gridded analysis data and in-situ observations, including a case study for the storm Ciara in February 2020. Both models achieve skillful predictions across a wide range of variables, with our Swiss model outperforming the numerical weather prediction baseline for key surface variables. With their substantially lower computational cost, our findings demonstrate great potential for machine learning limited area models in the future of regional weather forecasting.},
   bibtex_show={true},
   preview={building_lams.png},
-  code={https://github.com/joeloskarsson/neural-lam-dev/releases/tag/building-ml-lams}
+  code={https://github.com/joeloskarsson/neural-lam-dev/releases/tag/building-ml-lams},
+  annotation={* Equal contribution},
 }
 
 @inproceedings{andrae2024continuousensembleweatherforecasting,
