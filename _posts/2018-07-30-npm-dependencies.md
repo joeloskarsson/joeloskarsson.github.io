@@ -52,7 +52,7 @@ This resulted in data on direct dependencies.
 For subdependencies to packages the npm command line tool was used to retrieve information.
 For storing all the data an SQLite database was used, as can be seen below.
 
-{% include figure.html path="assets/img/npm_db.png" class="img-fluid" %}
+{% include figure.liquid path="assets/img/npm_db.png" class="img-fluid" %}
 <div class="caption">
     Database used in analysis
 </div>

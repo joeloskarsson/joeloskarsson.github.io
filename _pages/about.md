@@ -9,9 +9,13 @@ profile:
   image: me.jpg
   image_cicular: false # crops the image to make it circular
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit:  # leave blank to include all the news in the `_news` folder
 ---
 
 I am a PhD-student at the Division of Statistics and Machine Learning, Department of Computer and Information Science, Linköping University, Sweden.
@@ -31,13 +35,13 @@ I am an avid Linux user and a believer in free and open source software. Opennes
 
 My CV is available [here](https://raw.githubusercontent.com/joeloskarsson/CV/master/docs/CV.pdf).
 
-### Current interests
+### current interests
 These are some things that I am interested in and/or work on at the moment. I try to keep this somewhat up to date.
 
-* Spatio-temporal data analysis
+* Spatio-temporal machine learning
   * Machine learning for modeling weather and climate
+  * Probabilistic forecasting of spatio-temporal systems
   * Modeling continuous time signals using deep learning, Neural ODEs
 * Machine learning on graphs
   * Bayesian modeling on graphs, Graph GPs, GMRFs
   * (Spatio-) Temporal graph neural networks
-

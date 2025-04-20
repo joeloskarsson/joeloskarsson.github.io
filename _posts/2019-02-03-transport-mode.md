@@ -76,7 +76,7 @@ The features used were:
 * Standard deviation of speed
 * 25, 50 and 75 percentiles of speed
 
-{% include figure.html path="assets/img/scatter.svg" class="img-fluid" %}
+{% include figure.liquid path="assets/img/scatter.svg" class="img-fluid" %}
 <div class="caption">
     Scatter plots of some of the features
 </div>
