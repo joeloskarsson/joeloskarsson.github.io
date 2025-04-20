@@ -1,5 +1,17 @@
 ---
 ---
+@article{adamov2025building,
+  title={Building Machine Learning Limited Area Models: Kilometer-Scale Weather Forecasting in Realistic Settings},
+  author={Adamov, Simon and Oskarsson, Joel and Denby, Leif and Landelius, Tomas and Hintz, Kasper and Christiansen, Simon and Schicker, Irene and Osuna, Carlos and Lindsten, Fredrik and Fuhrer, Oliver and others},
+  journal={arXiv preprint },
+  year={2025},
+  pdf={https://arxiv.org/abs/2504.09340},
+  abstract={Machine learning is revolutionizing global weather forecasting, with models that efficiently produce highly accurate forecasts. Apart from global forecasting there is also a large value in high-resolution regional weather forecasts, focusing on accurate simulations of the atmosphere for a limited area. Initial attempts have been made to use machine learning for such limited area scenarios, but these experiments do not consider realistic forecasting settings and do not investigate the many design choices involved. We present a framework for building kilometer-scale machine learning limited area models with boundary conditions imposed through a flexible boundary forcing method. This enables boundary conditions defined either from reanalysis or operational forecast data. Our approach employs specialized graph constructions with rectangular and triangular meshes, along with multi-step rollout training strategies to improve temporal consistency. We perform systematic evaluation of different design choices, including the boundary width, graph construction and boundary forcing integration. Models are evaluated across both a Danish and a Swiss domain, two regions that exhibit different orographical characteristics. Verification is performed against both gridded analysis data and in-situ observations, including a case study for the storm Ciara in February 2020. Both models achieve skillful predictions across a wide range of variables, with our Swiss model outperforming the numerical weather prediction baseline for key surface variables. With their substantially lower computational cost, our findings demonstrate great potential for machine learning limited area models in the future of regional weather forecasting.},
+  bibtex_show={true},
+  preview={building_lams.png},
+  code={https://github.com/joeloskarsson/neural-lam-dev/releases/tag/building-ml-lams}
+}
+
 @inproceedings{andrae2024continuousensembleweatherforecasting,
     title={Continuous Ensemble Weather Forecasting with Diffusion models},
     author={Martin Andrae and Tomas Landelius and Joel Oskarsson and Fredrik Lindsten},
@@ -8,7 +20,8 @@
     pdf={https://arxiv.org/abs/2410.05431},
     abstract={Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.},
     bibtex_show={true},
-    preview = {cont_ens.png}
+    preview = {cont_ens.png},
+    code={https://github.com/martinandrae/Continuous-Ensemble-Forecasting}
 }
 
 @inproceedings{oskarsson2024probabilistic,
