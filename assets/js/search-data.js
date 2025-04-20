@@ -17,101 +17,106 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "post-icml-paper-quot-scalable-deep-gaussian-markov-random-fields-for-general-graphs-quot-workshop-paper-on-temporal-gnns",
-      
-        title: "ICML Paper &quot;Scalable Deep Gaussian Markov Random Fields for General Graphs&quot; + Workshop...",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
         
-          window.location.href = "/blog/2022/icml22/";
+          title: "ICML Paper &quot;Scalable Deep Gaussian Markov Random Fields for General Graphs&quot; + Workshop...",
         
-      },
-    },{id: "post-master-39-s-thesis-probabilistic-regression-using-conditional-generative-adversarial-networks",
-      
-        title: "Master&#39;s Thesis: Probabilistic Regression using Conditional Generative Adversarial Networks",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/icml22/";
+          
+        },
+      },{id: "post-master-39-s-thesis-probabilistic-regression-using-conditional-generative-adversarial-networks",
         
-          window.location.href = "/blog/2020/masters-thesis/";
+          title: "Master&#39;s Thesis: Probabilistic Regression using Conditional Generative Adversarial Networks",
         
-      },
-    },{id: "post-learning-communication-in-multi-agent-reinforcement-learning",
-      
-        title: "Learning Communication in Multi-Agent Reinforcement Learning",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/masters-thesis/";
+          
+        },
+      },{id: "post-learning-communication-in-multi-agent-reinforcement-learning",
         
-          window.location.href = "/blog/2020/marl-communication/";
+          title: "Learning Communication in Multi-Agent Reinforcement Learning",
         
-      },
-    },{id: "post-gridworld-sandbox-for-reinforcement-learning",
-      
-        title: "Gridworld Sandbox for Reinforcement Learning",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/marl-communication/";
+          
+        },
+      },{id: "post-gridworld-sandbox-for-reinforcement-learning",
         
-          window.location.href = "/blog/2019/rl-sandbox/";
+          title: "Gridworld Sandbox for Reinforcement Learning",
         
-      },
-    },{id: "post-machine-learning-for-transport-mode-classification",
-      
-        title: "Machine Learning for Transport Mode Classification",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2019/rl-sandbox/";
+          
+        },
+      },{id: "post-machine-learning-for-transport-mode-classification",
         
-          window.location.href = "/blog/2019/transport-mode/";
+          title: "Machine Learning for Transport Mode Classification",
         
-      },
-    },{id: "post-switzerland",
-      
-        title: "Switzerland",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2019/transport-mode/";
+          
+        },
+      },{id: "post-switzerland",
         
-          window.location.href = "/blog/2018/switzerland-update/";
+          title: "Switzerland",
         
-      },
-    },{id: "post-automatic-online-documentation-for-github-projects-using-doxygen-travis-ci-and-github-pages",
-      
-        title: "Automatic online documentation for GitHub projects using Doxygen, Travis CI and GitHub pages...",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2018/switzerland-update/";
+          
+        },
+      },{id: "post-automatic-online-documentation-for-github-projects-using-doxygen-travis-ci-and-github-pages",
         
-          window.location.href = "/blog/2018/automatic-docs/";
+          title: "Automatic online documentation for GitHub projects using Doxygen, Travis CI and GitHub pages...",
         
-      },
-    },{id: "post-an-analysis-of-dependencies-to-software-packages-in-open-source-javascript-projects",
-      
-        title: "An analysis of dependencies to software packages in open source JavaScript projects",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2018/automatic-docs/";
+          
+        },
+      },{id: "post-an-analysis-of-dependencies-to-software-packages-in-open-source-javascript-projects",
         
-          window.location.href = "/blog/2018/npm-dependencies/";
+          title: "An analysis of dependencies to software packages in open source JavaScript projects",
         
-      },
-    },{id: "news-i-attended-the-nordic-probabilistic-ai-summer-school-in-helsinki-finland",
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2018/npm-dependencies/";
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-i-attended-the-nordic-probabilistic-ai-summer-school-in-helsinki-finland",
           title: 'I attended the Nordic Probabilistic AI Summer School in Helsinki, Finland',
           description: "",
           section: "News",},{id: "news-conference-paper-workshop-paper-accepted-to-icml-2022-read-more",
@@ -195,8 +200,11 @@ ninja.data = [{
           section: "News",},{id: "news-i-attended-neurips-2024-in-vancouver-canada-had-a-blast-presenting-our-paper-on-probabilistic-weather-forecasting-and-meeting-lots-of-amazing-people",
           title: 'I attended NeurIPS 2024 in Vancouver, Canada. Had a blast presenting our paper...',
           description: "",
-          section: "News",},{id: "news-continuous-ensemble-weather-forecasting-with-diffusion-models-has-been-accepted-to-iclr-2025",
-          title: '“Continuous Ensemble Weather Forecasting with Diffusion models” has been accepted to ICLR 2025!...',
+          section: "News",},{id: "news-i-attended-the-swedish-learning-on-graphs-and-geometry-meetup-at-uppsala-university-giving-a-talk-on-forecasting-the-weather-with-graph-neural-networks-slides",
+          title: 'I attended the Swedish Learning on graphs and geometry meetup at Uppsala University,...',
+          description: "",
+          section: "News",},{id: "news-continuous-ensemble-weather-forecasting-with-diffusion-models-has-been-accepted-to-iclr-2025-and-diffusion-lam-probabilistic-limited-area-weather-forecasting-with-diffusion-accepted-to-the-climate-change-ai-workshop",
+          title: '“Continuous Ensemble Weather Forecasting with Diffusion models” has been accepted to ICLR 2025...',
           description: "",
           section: "News",},{
         id: 'social-github',
@@ -232,6 +240,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://liu.se/en/employee/joeos82", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%6F%65%6C.%6F%73%6B%61%72%73%73%6F%6E@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
       id: 'light-theme',
