@@ -209,6 +209,12 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-building-machine-learning-limited-area-models-kilometer-scale-weather-forecasting-in-realistic-settings",
           title: 'New preprint: “Building Machine Learning Limited Area Models: Kilometer-Scale Weather Forecasting in Realistic...',
           description: "",
+          section: "News",},{id: "news-i-have-successfully-defended-my-phd-thesis-titled-modeling-spatio-temporal-systems-with-graph-based-machine-learning",
+          title: 'I have successfully defended my PhD thesis, titled “Modeling Spatio-Temporal Systems with Graph-based...',
+          description: "",
+          section: "News",},{id: "news-i-attended-the-third-workshop-on-machine-learning-for-earth-system-modelling-in-bonn-germany-this-event-is-always-very-interesting-and-this-time-around-i-had-the-pleasure-to-present-together-with-simon-adamov-our-recent-work-on-building-machine-learning-limited-area-weather-models-slides-are-available-here",
+          title: 'I attended the “Third Workshop on Machine Learning for Earth System Modelling” in...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
