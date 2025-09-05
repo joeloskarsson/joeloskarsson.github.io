@@ -215,6 +215,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-attended-the-third-workshop-on-machine-learning-for-earth-system-modelling-in-bonn-germany-this-event-is-always-very-interesting-and-this-time-around-i-had-the-pleasure-to-present-together-with-simon-adamov-our-recent-work-on-building-machine-learning-limited-area-weather-models-slides-are-available-here",
           title: 'I attended the “Third Workshop on Machine Learning for Earth System Modelling” in...',
           description: "",
+          section: "News",},{id: "news-i-attended-a-symposium-on-ai-for-science-at-the-royal-swedish-academy-of-sciences-presenting-a-contributed-talk-on-machine-learning-for-high-resolution-regional-weather-forecasting",
+          title: 'I attended a symposium on “AI for Science” at The Royal Swedish Academy...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
