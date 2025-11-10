@@ -1,3 +1,14 @@
+@inproceedings{larsson2025crps,
+  title={CRPS-LAM: Regional ensemble weather forecasting from matching marginals},
+  author={Larsson, Erik and Oskarsson, Joel and Landelius, Tomas and Lindsten, Fredrik},
+  booktitle={EurIPS 2025 Workshop on AI for Climate and Conservation},
+  year={2025},
+  bibtex_show={true},
+  pdf = {https://arxiv.org/abs/2510.09484},
+  abstract={Machine learning for weather prediction increasingly relies on ensemble methods to provide probabilistic forecasts. Diffusion-based models have shown strong performance in Limited-Area Modeling (LAM) but remain computationally expensive at sampling time. Building on the success of global weather forecasting models trained based on Continuous Ranked Probability Score (CRPS), we introduce CRPS-LAM, a probabilistic LAM forecasting model trained with a CRPS-based objective. By sampling and injecting a single latent noise vector into the model, CRPS-LAM generates ensemble members in a single forward pass, achieving sampling speeds up to 39 times faster than a diffusion-based model. We evaluate the model on the MEPS regional dataset, where CRPS-LAM matches the low errors of diffusion models. By retaining also fine-scale forecast details, the method stands out as an effective approach for probabilistic regional weather forecasting},
+  preview = {crps_lam.png},
+}
+
 @inproceedings{larsson2025diffusion,
   title={Diffusion-LAM: Probabilistic Limited Area Weather Forecasting with Diffusion},
   author={Larsson, Erik and Oskarsson, Joel and Landelius, Tomas and Lindsten, Fredrik},
