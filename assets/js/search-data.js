@@ -218,6 +218,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-attended-a-symposium-on-ai-for-science-at-the-royal-swedish-academy-of-sciences-presenting-a-contributed-talk-on-machine-learning-for-high-resolution-regional-weather-forecasting",
           title: 'I attended a symposium on “AI for Science” at The Royal Swedish Academy...',
           description: "",
+          section: "News",},{id: "news-our-paper-crps-lam-regional-ensemble-weather-forecasting-from-matching-marginals-has-been-accepted-to-the-workshop-on-ai-for-climate-and-conservation-at-eurips-2025-erik-larsson-keeps-pushing-what-is-possible-in-regional-ensemble-weather-forecasting",
+          title: 'Our paper “CRPS-LAM: Regional ensemble weather forecasting from matching marginals” has been accepted...',
+          description: "",
+          section: "News",},{id: "news-i-joined-the-eth-zurich-ai-center-as-a-post-doctoral-fellow-i-have-relocated-to-zurich-continuing-to-work-on-machine-learning-for-weather-forecasting-and-earth-science",
+          title: 'I joined the ETH Zurich AI Center as a post-doctoral fellow! I have...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
@@ -251,7 +257,7 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://liu.se/en/employee/joeos82", "_blank");
+          window.open("https://inf.ethz.ch/people/people-atoz/person-detail.MjUwMDc2.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html", "_blank");
         },
       },{
         id: 'social-email',
