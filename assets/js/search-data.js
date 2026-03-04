@@ -224,6 +224,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-joined-the-eth-zurich-ai-center-as-a-post-doctoral-fellow-i-have-relocated-to-zurich-continuing-to-work-on-machine-learning-for-weather-forecasting-and-earth-science",
           title: 'I joined the ETH Zurich AI Center as a post-doctoral fellow! I have...',
           description: "",
+          section: "News",},{id: "news-uncertainty-quantification-of-surrogate-models-using-conformal-prediction-has-been-accepted-to-machine-learning-science-and-technology",
+          title: '“Uncertainty quantification of surrogate models using conformal prediction” has been accepted to Machine...',
+          description: "",
+          section: "News",},{id: "news-i-spent-a-week-in-oslo-first-giving-a-talk-at-the-weathergenerator-dissemination-workshop-about-probabilistic-deep-learning-for-earth-system-modeling-and-then-visiting-met-norway-for-some-interesting-discussions",
+          title: 'I spent a week in Oslo, first giving a talk at the WeatherGenerator...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
