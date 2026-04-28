@@ -230,6 +230,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-spent-a-week-in-oslo-first-giving-a-talk-at-the-weathergenerator-dissemination-workshop-about-probabilistic-deep-learning-for-earth-system-modeling-and-then-visiting-met-norway-for-some-interesting-discussions",
           title: 'I spent a week in Oslo, first giving a talk at the WeatherGenerator...',
           description: "",
+          section: "News",},{id: "news-i-am-at-climate-informatics-conference-2026-in-lausanne-presenting-some-ongoing-work-on-probabilistic-ocean-models",
+          title: 'I am at Climate Informatics conference 2026 in Lausanne, presenting some ongoing work...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
