@@ -29,3 +29,11 @@
 "larsson":
   - firstname: ["Erik", "E."]
     url: https://liu.se/en/employee/erila85
+
+"wikingsson":
+  - firstname: ["Erik", "E."]
+    url: https://liu.se/en/employee/erila85
+
+"holmberg":
+  - firstname: ["Daniel", "D."]
+    url: https://danielholmberg.fi/
