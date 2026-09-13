@@ -46,9 +46,13 @@ My CV is available [here](https://raw.githubusercontent.com/joeloskarsson/CV/mas
 These are some things that I am interested in and/or work on at the moment. I try to keep this somewhat up to date.
 
 * Spatio-temporal machine learning
-  * Machine learning for modeling weather and climate
   * Probabilistic forecasting of spatio-temporal systems
-  * Modeling continuous time signals using deep learning, Neural ODEs
-* Machine learning on graphs
-  * Bayesian modeling on graphs, Graph GPs, GMRFs
+  * Forecasting methods based on scoring rules
+  * Integrating sparse, irregular observations
   * (Spatio-) Temporal graph neural networks
+* Machine learning for earth system modeling
+  * Methodology for ensemble forecasting
+  * Representation learning for physical fields
+  * High-resolution models, in both space and time
+  * Weather and ocean forecasting
+
