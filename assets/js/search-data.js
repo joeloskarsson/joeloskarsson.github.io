@@ -233,6 +233,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-at-climate-informatics-conference-2026-in-lausanne-presenting-some-ongoing-work-on-probabilistic-ocean-models",
           title: 'I am at Climate Informatics conference 2026 in Lausanne, presenting some ongoing work...',
           description: "",
+          section: "News",},{id: "news-our-project-ai-powered-early-warning-and-profiling-for-displaced-populations-was-selected-for-funding-in-the-first-round-of-the-international-geneva-ai-innovation-programme-looking-forward-to-an-interesting-and-impactfull-collaboration-with-dr-christina-humer-pi-ethz-and-the-international-organization-for-migration-iom",
+          title: 'Our project AI-Powered Early Warning and Profiling for Displaced Populations, was selected for...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
