@@ -236,6 +236,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-project-ai-powered-early-warning-and-profiling-for-displaced-populations-was-selected-for-funding-in-the-first-round-of-the-international-geneva-ai-innovation-programme-looking-forward-to-an-interesting-and-impactfull-collaboration-with-dr-christina-humer-pi-ethz-and-the-international-organization-for-migration-iom",
           title: 'Our project AI-Powered Early Warning and Profiling for Displaced Populations, was selected for...',
           description: "",
+          section: "News",},{id: "news-i-gave-lectures-on-gnns-for-spatio-temporal-and-earth-system-modeling-at-the-kcds-summer-school-on-graph-neural-networks-at-kit-in-karlsruhe",
+          title: 'I gave lectures on GNNs for spatio-temporal and earth system modeling at the...',
+          description: "",
+          section: "News",},{id: "news-our-paper-njord-a-probabilistic-graph-neural-network-for-ensemble-ocean-forecasting-has-been-accepted-to-neurips-2026",
+          title: 'Our paper “Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting” has...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
