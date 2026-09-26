@@ -1,5 +1,27 @@
 ---
 ---
+@inproceedings{holmberg2026njord,
+  title={Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting},
+  author={Holmberg, Daniel and Oskarsson, Joel and Wikingsson, Erik and Lindsten, Fredrik and Roos, Teemu},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  pdf={https://arxiv.org/abs/2605.15470},
+  abstract={Ocean dynamics are inherently chaotic, yet existing machine learning ocean models produce only deterministic forecasts. We introduce Njord, a probabilistic data-driven model for ocean forecasting, applicable to both global and regional domains. Njord combines a deep latent variable framework with a graph neural network architecture, enabling sampling each forecast step in a single forward pass. We apply Njord globally at 0.25° resolution and regionally to the Baltic Sea at 2 km resolution. To scale to these large ocean grids we introduce K-means cluster meshes that adapt to irregular sea surface geometry. Experiments demonstrate strong performance on both domains compared to deterministic machine learning baselines, while also providing uncertainty estimates from the sampled ensemble forecasts. On the global OceanBench benchmark, Njord achieves the lowest errors on average across upper-ocean variables when evaluated against real-world observations, with the largest improvements in surface temperature prediction.},
+  bibtex_show={true},
+  preview={thumb_njord.png},
+}
+
+@article{chen2026butterfly,
+  title={Butterfly Effect and the Kinetic Energy Cascade in Probabilistic Machine Learning Weather Prediction Models},
+  author={Chen, Jiakai and Oskarsson, Joel and Driscoll, Simon and Schemm, Sebastian},
+  journal={arXiv preprint},
+  year={2026},
+  pdf={https://arxiv.org/abs/2609.18489},
+  abstract={This study analyses kinetic energy (KE) spectra, difference kinetic energy (DKE) spectra, and signatures of KE transfer across spatial scales in four state-of-the-art probabilistic machine learning weather prediction (MLWP) models: NeuralGCM-ENS, FourCastNet 3, AIFS-ENS, and GenCast. Results are compared with those from the physics-based numerical weather prediction model IFS-ENS. While NeuralGCM-ENS successfully reproduces the expected upscale transfer of KE, noise injection at its encoder stage underestimates mesoscale KE. Conversely, AIFS-ENS, GenCast, and FourCastNet 3 produce realistic KE spectral magnitudes but do not capture the expected upscale transfer of KE. In particular, AIFS-ENS and GenCast, which employ spatially uncorrelated stochastic perturbations, exhibit enhanced accumulation of KE at high wavenumbers. All examined models exhibit upscale error growth, reflected by the progressive shift of the DKE spectral peak toward larger wavelengths over time. However, the MLWP models struggle to reproduce the rapid initial growth of ensemble spread at small spatial scales associated with the butterfly effect. The results show that MLWP models can misrepresent the known scale transfer of kinetic energy despite producing skilful weather forecasts.},
+  bibtex_show={true},
+  preview={thumb_butterfly.png},
+}
+
 @article{wikingsson2026crps,
       title={{CRPS-LAM}: Probabilistic Regional Weather Forecasting with Continuous Ranked Probability Score},
       author={Erik Wikingsson and Joel Oskarsson and Tomas Landelius and Fredrik Lindsten},
@@ -9,17 +31,6 @@
       abstract={imited-Area Models (LAMs) enable weather forecasting over regional domains at higher resolutions than what is computationally feasible for global models. At such high resolutions, machine learning approaches for weather prediction increasingly rely on ensemble methods to produce probabilistic forecasts. However, existing machine learning LAMs are not scalable due to relying on computationally costly diffusion models or inefficient graph neural networks. We tackle this by introducing a new hybrid CNN/GNN architecture, tailored to the LAM weather forecasting problem. Using this architecture, we construct the DET-LAM deterministic model, producing LAM forecasts both more efficiently and accurately than its graph-based competitor. We then tackle the ensemble forecasting problem, by using this architecture as a backbone for the generative model CRPS-LAM. CRPS-LAM is trained using a Continuous Ranked Probability Score (CRPS) objective, enabling efficient training and sampling in a single forward pass. This yields a speedup of ≈×39 compared to diffusion-based baselines. We evaluate our approach on regional domains in northern Europe, demonstrating that CRPS-LAM produces skillful and well-calibrated forecasts across a range of atmospheric variables.},
     bibtex_show={true},
     preview = {crps_lam_full.png},
-}
-
-@article{holmberg2026njord,
-  title={Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting},
-  author={Holmberg, Daniel and Oskarsson, Joel and Wikingsson, Erik and Lindsten, Fredrik and Roos, Teemu},
-  journal={arXiv preprint},
-  year={2026},
-  pdf={https://arxiv.org/abs/2605.15470},
-  abstract={Ocean dynamics are inherently chaotic, yet existing machine learning ocean models produce only deterministic forecasts. We introduce Njord, a probabilistic data-driven model for ocean forecasting, applicable to both global and regional domains. Njord combines a deep latent variable framework with a graph neural network architecture, enabling sampling each forecast step in a single forward pass. We apply Njord globally at 0.25° resolution and regionally to the Baltic Sea at 2 km resolution. To scale to these large ocean grids we introduce K-means cluster meshes that adapt to irregular sea surface geometry. Experiments demonstrate strong performance on both domains compared to deterministic machine learning baselines, while also providing uncertainty estimates from the sampled ensemble forecasts. On the global OceanBench benchmark, Njord achieves the lowest errors on average across upper-ocean variables when evaluated against real-world observations, with the largest improvements in surface temperature prediction.},
-  bibtex_show={true},
-  preview={thumb_njord.png},
 }
 
 @article{gopakumar2024uncertainty,

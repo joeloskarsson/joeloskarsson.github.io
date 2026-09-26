@@ -37,3 +37,11 @@
 "holmberg":
   - firstname: ["Daniel", "D."]
     url: https://danielholmberg.fi/
+
+"schemm":
+  - firstname: ["Sebastian", "S."]
+    url: https://www.damtp.cam.ac.uk/person/ss3299
+
+"lehmann":
+  - firstname: ["Fanny", "F."]
+    url: https://fannylehmann.github.io/

@@ -1,3 +1,14 @@
+@article{elberkennou2026every,
+  title={Every Fixed Metric Has a Blind Spot: A Learned Atmospheric Critic for Scoring Forecast Realism},
+  author={Elberkennou, Younes and Demler, Dmitri and Meier, Thierry and Rispoli, Luca and Lehmann, Fanny and Oskarsson, Joel},
+  journal={arXiv preprint},
+  year={2026},
+  pdf={https://arxiv.org/abs/2609.18381},
+  abstract={Despite their high accuracy on point-wise metrics, machine learning weather forecasting models can exhibit different failure modes such as blurring, periodic irregularities, and other unphysical spatial artifacts. This has motivated a variety of metrics to detect known failure cases. Existing metrics fix a representation or transformation in advance, and that choice limits the artifacts they can detect. We propose to train a discriminator for separating reference data from the model's output, and using its output logit to obtain a divergence-like realism score. The discriminator learns whatever separates the model's fields from real weather, adapting to whichever failure mode that model exhibits. We compare our learned atmospheric critic to existing metrics using various synthetic corruptions applied to ERA5 reanalysis data. Our method successfully identifies the corruptions and ranks their severity, while existing metrics fail on at least one corruption. Additionally, we evaluate forecasts from real weather models, and find that the realism score degrades with longer lead times and the metric generally assigns higher realism to numerical models than to machine learning models.},
+  bibtex_show={true},
+  preview={thumb_metric_critic.png},
+}
+
 @inproceedings{larsson2025crps,
   title={CRPS-LAM: Regional ensemble weather forecasting from matching marginals},
   author={Larsson, Erik and Oskarsson, Joel and Landelius, Tomas and Lindsten, Fredrik},
