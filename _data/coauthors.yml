@@ -45,3 +45,11 @@
 "lehmann":
   - firstname: ["Fanny", "F."]
     url: https://fannylehmann.github.io/
+
+"humer":
+  - firstname: ["Christina", "C."]
+    url: https://ivia.ethz.ch/people/humer
+
+"soja":
+  - firstname: ["Benedikt", "B."]
+    url: https://space.igp.ethz.ch/people/person-detail.soja.html
