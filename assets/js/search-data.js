@@ -242,6 +242,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-njord-a-probabilistic-graph-neural-network-for-ensemble-ocean-forecasting-has-been-accepted-to-neurips-2026",
           title: 'Our paper “Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting” has...',
           description: "",
+          section: "News",},{id: "news-two-papers-accepted-to-the-neurips-2026-workshop-on-advances-in-representation-learning-for-earth-observation-together-with-great-teams-of-students-and-collaborators-every-fixed-metric-has-a-blind-spot-a-learned-atmospheric-critic-for-scoring-forecast-realism-gnn-view-visual-inspection-and-explanation-of-graph-based-earth-system-models",
+          title: 'Two papers accepted to the NeurIPS 2026 Workshop on Advances in Representation Learning...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
