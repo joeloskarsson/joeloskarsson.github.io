@@ -38,7 +38,8 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    {% assign content_parts = content | split: '<!-- current-interests -->' %}
+    <div class="clearfix">{{ content_parts[0] }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -46,6 +47,10 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
+    {% endif %}
+
+    {% if content_parts.size > 1 %}
+      <div class="clearfix">{{ content_parts[1] }}</div>
     {% endif %}
 
     <!-- Latest posts -->
